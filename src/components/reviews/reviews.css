@@ -1,0 +1,103 @@
+.reviews{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 5rem 0;
+}
+.reviews h2{
+    color: #3d4959;
+    margin: 0;
+}
+.reviews p{
+    color: #8a9199;
+}
+.reviews-card-container {
+    margin: 3rem 0 4rem 0;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.reviews-card{
+    background-color: #fff;
+    padding: 3rem 0rem;
+    border-radius: 16px;
+    height: 500px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32.33% !important;
+    margin-bottom: 1rem;
+    /* align-self:; */
+
+}
+.user-profile{
+    width: auto;
+    margin-right: 10px;
+    margin-left: 3rem;
+}
+.user-profile i{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #9b27b0;
+    background-color: #f4e6f7;
+}
+.user-details{
+    width: 70%;
+}
+.user-details h3, .user-details p{
+    margin: 0;
+    margin-top: 8px;
+}
+.ratings{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    width: 70%;
+    /* justify-content: ; */
+    column-gap: 1rem;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+    color: #ffd500;
+}
+.stars span{
+    padding-top: 3px;
+}
+.review-content h3{
+    width: 85%;
+    text-align: left;
+}
+.review-content{
+    margin-left: 3rem;
+    width: 80%;
+}
+.review-content p{
+    text-align: left;
+    line-height: 24px;
+}
+.review-likes{
+    padding-top: 2.5rem;
+    margin-left: 3rem;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+}
+.liked{
+    color: #9b27b0;
+    /* fill: #9b27b0; */
+}
+.show-all button{
+    padding: 1.3rem 5rem;
+    border-radius: 6px;
+    background-color: #9b27b0;
+    border: none;
+}
+.show-all a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,122 @@
+.bg-container{
+    width: 100%;
+    background: url('../assets/images/hero-main-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 8rem 0;
+    text-align: center;
+}
+.hero{
+    padding-top: 4rem;
+}
+.hero h1{
+    font-size: 48px;
+    line-height: 58px;
+    color: #3e4857;
+    margin: 0;
+}
+.hero p{
+    font-family: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(139, 146, 154);
+}
+.qr-links-section{
+    padding-top: 1rem;
+}
+.qr-links{
+    background-color: #fff;
+    padding: 12px 30px;
+    border-radius: 12px;
+}
+.qr-links a{
+    text-decoration: none;
+}
+.qr-links:hover{
+    cursor: pointer;
+    outline: 2px solid #9b27b0;
+    .question-mark{  border-color: #9b27b0;}
+    .question-mark p{ color: #9b27b0; border-color: #9b27b0;}
+    .arrow-right, .fa-arrow-right-long{background-color: #9b27b0; color: #fff !important;}
+    .arrow-right i{ color: #fff;}
+    .flex h3{ color: #9b27b0 !important;}
+    .fa-link, .fa-list-ul, .fa-bars-staggered, .fa-youtube{ color: #9b27b0 !important;}
+}
+.flex h3{
+    color: #3e4857 !important;
+    width: max-content;
+}
+.fa-link, .fa-list-ul, .fa-bars-staggered{ color: #000 !important;}
+.question-mark{
+ width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.question-mark p{
+    color: #3e4857;
+    background-color: #fff;
+    padding: 0 !important;
+    font-size: 16px;
+    background-color: transparent;
+    margin-top: 17px;
+}
+.arrow-right{
+    background-color: #fdf2ff;
+    padding: 7px;
+    border-radius: 5px;
+}
+.arrow-right i{
+    color: #9b27b0;
+}
+.url-link-content .fa-youtube{
+    color: red !important;
+    font-size: 40px;
+}
+.fa-youtube{
+    padding: 12px 0;
+}
+.list-links{
+    padding: 0px 61px 0px 1rem;
+}
+.view-more{
+    margin-top: 3rem;
+}
+.view-more button{
+    padding: 10px 4rem;
+    background-color: #9b27b0;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 9px;
+}
+.view-more button a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.question-mark{
+    position: relative;
+    z-index: 200;
+}
+.question-mark:hover{
+    .question-details{
+        display: block !important;
+         position: absolute;
+        top: 0;
+        z-index: 100;
+    }
+}
+.question-details{
+    display: none;
+   
+    background-color: red;
+    width: 20%;
+    border: 1ps solid black;
+    color: #fff;
+    font-size: 16px;
+}

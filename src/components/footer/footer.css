@@ -1,0 +1,79 @@
+.footer{
+    background-color: #3e4857;
+    padding: 3rem 0;
+}
+.footer-flex{
+    align-items: flex-start !important;
+}
+.download-text h3{
+    color: #fff !important;
+    margin-bottom: 10px ;
+    margin-top: 3rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer p{
+    color: #8a9199;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-intro{
+    width: 40%;
+}
+.footer-intro .logo{
+    width: 20%;
+    padding-bottom: 3rem;
+}
+.Download-links{
+    margin-top: 2rem;
+    
+}
+.footer-links{
+    margin-left: 3rem;
+    width: 60%;
+}
+.footer-links-ul{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-links-ul >div> h3, .footer-newsletter >div> h3{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer-links-ul ul{
+    padding-left: 0px;
+}
+.footer-links-ul ul li{
+    list-style-type: none;
+}
+.footer-links-ul ul li a{
+    text-decoration: none;
+    color: #8a9199;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.newsletter-form input{
+    background-color: transparent;
+    padding: 1.3rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #8a9199;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 16px;
+}
+.subscribe{
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+
+.w-75{
+    width: 75%;
+}
+.w-25{
+    width: 25%;
+}

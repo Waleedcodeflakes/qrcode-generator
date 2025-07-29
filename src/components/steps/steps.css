@@ -1,0 +1,89 @@
+.steps{
+    text-align: center;
+    margin: 5rem 0;
+}
+.steps h2{
+    font-size: 40px;
+    color: #3d4959;
+}
+.steps-container{
+    padding-top: 1.3rem !important;
+    column-gap: 1.5rem;
+}
+.steps-card{
+    text-align: center;
+    border: 1px solid #dfe2e6;
+    border-radius: 6px;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.steps-no{
+    color: #9b27b0;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #f5e9f7;
+    padding: 6px 10px;
+    border-radius: 8px;
+    line-height: 21px;
+    width: fit-content;
+    margin-top: 1rem;
+}
+.steps p{
+    margin: 0;
+    padding: 0;
+}
+.steps-heading{
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 36px;
+    text-align: center;
+}
+.steps-heading h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.try-now{
+    color: #fff;
+    text-align: left;
+    padding: 3.5rem 0rem;
+    background: linear-gradient(to right, #4f13b0, #fa4b54);
+    border-radius: 20px;
+    margin-top: 6rem;
+}
+.w-50{
+    padding-left: 2.5rem;
+}
+.try-now h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 0px;
+
+}
+.try-now p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.try-now button{
+    margin-top: 1.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 40%;
+    border-radius: 9px;
+    padding: 16px 0;
+    background-color: #fff;
+    color: #6a007d;
+    cursor: pointer;
+}
+.try-now button a{
+    text-decoration: none;
+    color: #6a007d;
+    cursor: pointer;
+}
