@@ -74,7 +74,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='view-more'>
-                <button><a href='#'>View More types</a></button>
+                <button><a href='#viewmore'>View More types</a></button>
             </div>
         </div>
 

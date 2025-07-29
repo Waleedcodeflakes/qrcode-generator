@@ -52,7 +52,7 @@ const Steps = () => {
                 <button><Link to='/qr-code-generator'>Try Now</Link></button>
             </div>
             <div className='w-50' style={{ justifyContent : 'center'}}>
-                <img src={StepMedia} />
+                <img src={StepMedia} alt='steps media img'/>
             </div>
         </div>
     </div>

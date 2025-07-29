@@ -1,6 +1,5 @@
 import React from 'react'
 import './reviews.css'
-import user from '../assets/images/user.png'
 import Reviewscard from './Reviewscard'
 
 const Reviews = () => {
@@ -93,7 +92,7 @@ const Reviews = () => {
                         ))}
             </div>
             <div className='show-all'>
-                <button><a href='#' className='fs-16 fw-700'>Show All</a></button>
+                <button><a href='#usefulllink' className='fs-16 fw-700'>Show All</a></button>
             </div>
         </div>
     </div>

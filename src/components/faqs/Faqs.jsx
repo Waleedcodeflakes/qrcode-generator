@@ -51,11 +51,11 @@ const Faqs = () => {
                     </div>
                         ))}
                     <div className='show-all a-left'>
-                        <button><a href='#' className='fs-16 fw-700'>Show All</a></button>
+                        <button><a href='#showall' className='fs-16 fw-700'>Show All</a></button>
                     </div>
                 </div>
                 <div className='faqs-media w-30'>
-                    <img src={faqMedia} />
+                    <img src={faqMedia} alt="faq media"/>
                 </div>
         
             </div>

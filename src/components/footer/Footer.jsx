@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='footer-flex w-85 flex m-auto'>
             <div className='footer-intro'>
                 <div className='logo'>
-                    <img src={logo} />
+                    <img src={logo} alt='logo'/>
                 </div>
                 <div className='footer-text'>
                     <p>Create codes with our free QR generator of codes.<br/> Comprehensible interface, variety in choosing the type of your QR-code, the ability to view statistics!</p>
@@ -22,10 +22,10 @@ const Footer = () => {
                     </div>
                     <div className='Download-links flex c-gap-1'>
                         <div className='store-img'>
-                            <img src={Appstore} />
+                            <img src={Appstore} alt='App store icon'/>
                         </div>
                         <div className='store-img'>
-                            <img src={Playstore} />
+                            <img src={Playstore} alt='play store icon'/>
                         </div>
                     </div>
                 </div>
@@ -35,38 +35,38 @@ const Footer = () => {
                     <div>
                         <h3>Products</h3>
                         <ul>
-                            <li><a href='#'>Benefits</a></li>
-                            <li><a href='#'>API</a></li>
-                            <li><a href='#'>Affiliate Program</a></li>
+                            <li><a href='#usefulllink'>Benefits</a></li>
+                            <li><a href='#usefulllink'>API</a></li>
+                            <li><a href='#usefulllink'>Affiliate Program</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3>Information</h3>
                         <ul>
-                            <li><a href='#'>Payment & Content</a></li>
-                            <li><a href='#'>Pricing</a></li>
-                            <li><a href='#'>Compare</a></li>
-                            <li><a href='#'>TrustPilot</a></li>
-                            <li><a href='#'>Reviews</a></li>
+                            <li><a href='#usefulllink'>Payment & Content</a></li>
+                            <li><a href='#usefulllink'>Pricing</a></li>
+                            <li><a href='#usefulllink'>Compare</a></li>
+                            <li><a href='#usefulllink'>TrustPilot</a></li>
+                            <li><a href='#usefulllink'>Reviews</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3>Legal</h3>
                         <ul>
-                            <li><a href='#'>About Us</a></li>
-                            <li><a href='#'>Account & Payment</a></li>
-                            <li><a href='#'>Privacy Policy</a></li>
-                            <li><a href='#'>Terms & Conditions</a></li>
+                            <li><a href='#usefulllink'>About Us</a></li>
+                            <li><a href='#usefulllink'>Account & Payment</a></li>
+                            <li><a href='#usefulllink'>Privacy Policy</a></li>
+                            <li><a href='#usefulllink'>Terms & Conditions</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3>Support</h3>
                         <ul>
-                            <li><a href='#'>FAQ</a></li>
-                            <li><a href='#'>Instructions</a></li>
-                            <li><a href='#'>Blog</a></li>
-                            <li><a href='#'>Video</a></li>
-                            <li><a href='#'>Help Center</a></li>
+                            <li><a href='#usefulllink'>FAQ</a></li>
+                            <li><a href='#usefulllink'>Instructions</a></li>
+                            <li><a href='#usefulllink'>Blog</a></li>
+                            <li><a href='#usefulllink'>Video</a></li>
+                            <li><a href='#usefulllink'>Help Center</a></li>
                         </ul>
                     </div>
                 </div>

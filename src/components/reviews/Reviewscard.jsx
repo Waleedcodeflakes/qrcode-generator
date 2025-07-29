@@ -29,7 +29,7 @@ const Reviewscard = (props) => {
             </div>
         </div>
         <div className='ratings flex'>
-            <div className='stars'><img src={stars5} /> <span>5</span></div>
+            <div className='stars'><img src={stars5} alt='5 star'/> <span>5</span></div>
             <p>•</p>
             <p>{props.datePosted}</p>
         </div>
